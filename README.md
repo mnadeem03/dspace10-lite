@@ -32,7 +32,7 @@ Optimized for low-memory PCs and laptops (**~4 GB RAM**).
 4. Wait for DSpace to become ready:
    - **First run only:** about **10–15 minutes** (depends on internet speed).  
      Docker downloads the images once; this does not happen again on normal starts.
-   - **Every start after that:** about **3 minutes** until DSpace is up and usable.
+   - **Every start after that:** about **05-10 minutes** until DSpace is up and ready to use.
 5. Then open:
 
 **http://localhost:4000**
@@ -58,7 +58,7 @@ Double-click **`create-admin.bat`**.
 Double-click **`stop.bat`**.
 
 Data is preserved. You can start again later with **`start.bat`**.  
-After the first run, allow about **3 minutes** each time for DSpace to be fully ready.
+After the first run, allow about **05-10 minutes** each time for DSpace to be fully ready.
 
 ---
 
@@ -104,7 +104,7 @@ After the first run, allow about **3 minutes** each time for DSpace to be fully 
 - Always start **Docker Desktop** before using any `.bat` file.
 - Do not close Docker Desktop while DSpace is running.
 - **First run:** 10–15 minutes (image download, one time, depends on internet).  
-  **Later runs:** about 3 minutes until the site is fully up.
+  **Later runs:** about 05-10 minutes until the site is fully up.
 
 ---
 
